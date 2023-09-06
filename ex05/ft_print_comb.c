@@ -6,7 +6,7 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 16:07:56 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/06 18:13:27 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/06 23:00:21 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ void	ft_print_comb(void)
 	}
 	write(1, "789", 3);
 }
+
 /*int	main(void)
 {
 	ft_print_comb();
