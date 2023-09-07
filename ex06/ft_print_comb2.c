@@ -6,7 +6,7 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 23:38:27 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/07 10:34:44 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/07 11:15:25 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,11 @@ void	ft_print_comb2(void)
 	int	a;
 	int	b;
 
-	a = -1;
-	while (++a <= 97)
+	a = 0;
+	while (a <= 97)
 	{
-		b = a;
-		while (++b <= 98)
+		b = a + 1;
+		while (b <= 99)
 		{
 			ft_put_char(a / 10 + '0');
 			ft_put_char(a % 10 + '0');
@@ -34,7 +34,10 @@ void	ft_print_comb2(void)
 			ft_put_char(b / 10 + '0');
 			ft_put_char(b % 10 + '0');
 			ft_put_char(',');
+			ft_put_char(' ');
+			b++;
 		}
+		a++;
 	}
 	write(1, "98 99", 5);
 }
