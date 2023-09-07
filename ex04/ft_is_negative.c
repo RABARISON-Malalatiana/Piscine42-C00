@@ -6,7 +6,7 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 15:33:22 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/06 16:03:06 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/07 13:45:49 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,11 @@ void	ft_is_negative(int n)
 	}
 }
 
-int	main(void)
+/*int	main(void)
 {
 	int	test;
 
 	test = 85;
 	ft_is_negative(test);
 	return (0);
-}
+}*/

@@ -6,7 +6,7 @@
 /*   By: marabari <marabari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 13:12:47 by marabari          #+#    #+#             */
-/*   Updated: 2023/09/06 15:30:56 by marabari         ###   ########.fr       */
+/*   Updated: 2023/09/07 13:43:03 by marabari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@ void	ft_print_numbers(void)
 	}
 }
 
-int	main(void)
+/*int	main(void)
 {
 	ft_print_numbers();
 	return (0);
-}
+}*/
